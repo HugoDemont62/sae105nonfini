@@ -1,0 +1,151 @@
+*{
+    margin: 0 0;
+
+}
+
+body{
+    background-color: #E9E9E9FF;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+header{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+header img{
+    width: 200px;
+    margin-left: 1em;
+}
+
+header h1{
+    color: #26B135FF;
+    font-size: 15px;
+    margin-top: 4em;
+    margin-right: 1.5em;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/**/
+
+nav{
+    margin-top: 3em;
+    display: flex;
+    margin-left: 2em;
+
+}
+
+nav #gauche a{
+    background-color: darkred;
+    padding-inline: 1em;
+    text-decoration: none;
+    color: white;
+    padding-block: 0.5em;
+    margin-right: 1.5em;
+    border-radius: 0.2em;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+nav #gauche a:hover{
+    color: black;
+}
+
+/**/
+
+.pannier div {
+    position: relative;
+}
+.pannier__img {
+    position: absolute;
+    width: 3%;
+    right: 24px;
+    bottom: 4px;
+
+}
+.pannier__chiffre{
+    color: white;
+    background-color: darkred;
+    position: absolute;
+    right: 16px;
+    bottom: 4px;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pannier a{
+    text-decoration: none;
+    color: #23a1a8;
+    position: absolute;
+    right: 20px;
+    bottom: -16px;
+
+}
+
+footer{
+    background-color: black;
+    padding-inline: 2em;
+    color: white;
+    margin-top: 1em;
+    position: absolute;
+
+}
+
+
+footer > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#part1 img{
+    width: 200px;
+}
+
+#part2 #rs{
+    width: 220px;
+    border-bottom: 2px solid white;
+
+}
+
+#part2>img{
+    display: block;
+}
+
+#part2  #mp{
+    width: 200px;
+    margin-left: 1em;
+    margin-top: 1em;
+}
+
+footer a{
+    margin-top: 1em;
+    font-size: 13px;
+    display: flex;
+    text-decoration: none;
+    color: white;
+
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+footer p{
+    color: grey;
+    font-size: 13px;
+    text-align: center;
+}
+
+#part2 a{
+    margin-left: 0.8em;
+    text-decoration: none;
+    color: white;
+}

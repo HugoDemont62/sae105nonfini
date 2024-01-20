@@ -1,0 +1,103 @@
+html {
+  height: 100vh;
+}
+
+#recap {
+  border: 1px solid grey;
+  padding: 1em;
+  border-radius: 0.5em;
+  background-color: white;
+  width: 300px;
+  height: 250px;
+  margin-inline: 2em;
+}
+
+#recap h4 {
+  text-transform: uppercase;
+  margin-top: 1em;
+}
+
+#bouton {
+  background-color: deepskyblue;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 0.5em;
+  margin-top: 1em;
+  border-radius: 0.2em;
+}
+
+#mode p {
+  margin-top: 1em;
+  margin-bottom: 0.4em;
+  font-size: 12px;
+}
+
+#recap img {
+  width: 200px;
+}
+
+.page {
+  display: flex;
+  justify-content: space-between;
+  line-height: 25px;
+}
+
+.basket {
+  width: 100px;
+}
+
+#commande {
+  display: flex;
+  justify-content: space-around;
+  font-size: 15px;
+  margin-top: 2em;
+}
+
+table {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+table tr {
+  display: flex;
+  align-content: center;
+  text-align: center;
+  width: 100%;
+  justify-content: center;
+}
+table tr td {
+  width: 100%;
+  padding: 0.5em;
+}
+table tr th {
+  width: 100%;
+  padding: 0.5em;
+  border-bottom: 1px solid grey;
+}
+
+.total__panier {
+  border: 1px solid grey;
+  border-radius: 0.5em;
+  width: 80%;
+  margin-bottom: 6em;
+  margin-left: 2em;
+  padding: 1em;
+}
+
+.total__panier .basket {
+  width: 30px;
+}
+
+.total__panier .supp__basket {
+  width: 15px;
+  background-color: cornflowerblue;
+  border-radius: 0.4em;
+}
+
+.imgTh {
+  width: 10px;
+}
+
+/*# sourceMappingURL=panier.css.map */
